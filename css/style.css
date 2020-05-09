@@ -1,0 +1,243 @@
+body {
+	padding: 0;
+	text-align: center;
+	font-family: montserrat;
+
+	background-color: #F9FBFD;
+	width: 1366px;
+	color: #011C40;
+}
+a {
+	text-decoration: none;
+	color: #011C40;
+}
+a:hover {
+	cursor: pointer;
+}
+.visually-hidden {
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin:-1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+
+}
+h1 {
+	font-size: 54px;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 66px;
+	margin: 0;
+}
+header {
+	margin: 0 auto;
+	background-image: url("../img/Rectangle 1.png");
+	background-repeat: no-repeat;
+	min-height: 650px;
+	color: #000000;
+}
+
+                             /* шапка и навигация*/
+.main-navigation {
+	min-height: 73px;
+	display: flex;
+	flex-direction: row;
+} 
+.main-navigation ul {
+	margin: 48px 103px 0 auto;
+	padding-left: 494px;
+	width: 1193px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.main-navigation a {
+	font-size: 16px;
+	color: #ffffff;
+}
+.main-navigation img {
+	margin-left: 103px;
+	padding-top: 35px;
+}
+.parag-header {
+	text-align: left;
+	padding-top: 210px;
+	padding-left: 198px;
+}
+.parag-header-text {
+	margin-top: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 24px;
+}
+                         /*ОПИСАНИЕ*/
+
+.description {
+	display: flex;
+	margin-top: 120px;
+}
+.description-item {
+	text-align: left;
+	padding-left: 103px;
+	padding-top: 80px;
+}
+..description-item h2 {
+	font-size: 28px;
+	font-weight: 600;
+}
+.rect2 {
+	margin: 0 103px 0 auto;
+}
+                        /*преимущества*/
+.advance {
+	min-height: 562px;
+	background-image: url("../img/Rectangle 3.png");
+}
+
+.advance h2 {
+	padding-top: 120px;
+	font-size: 28px;
+}
+.advance  ul{
+	padding-left: 103px;
+	padding-right: 103px;
+	margin-top: 60px;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+
+}
+.advance li {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 360px;
+	min-height: 241px;
+	background-color: #F9FBFD;
+}
+.advance h3 {
+	font-size: 18px;
+	padding-left: 30px;
+	margin-top: 87px;
+}
+.advance p {
+	font-size: 16px;
+	font-weight: 500;
+	padding-left: 30px;
+	line-height: 140%;
+}
+.advance img {
+	padding-left: 30px;
+	position: absolute;
+}
+.ship {
+	padding-top: 30px;
+}
+.gal {
+	padding-top: 35px;
+}
+.bort {
+	padding-top: 38px;
+}
+                         /*ПРОГРАММА КРУИЗОВ*/
+.cruis {
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.program ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 118px;
+	padding-right: 118px;
+}
+.program li {
+	position: relative;
+}
+.program p {
+	position: absolute;
+	z-index: 0;
+    bottom: 10px;
+	padding-left: 30px;
+	color: #ffffff;
+}
+.program img {
+	margin-top: 30px;
+}
+                        /*бронирование*/
+.booking {
+	display: flex;
+	min-height: 555px;
+	background-image: url("../img/Rectangle 19.png");
+	margin-top: 120px;
+}
+.booking-item1 {
+	text-align: left;
+	width: 50%;
+	padding: 228px 0 0 162px;
+}
+.booking-item2 {
+	width: 50%;
+	
+	background-color: red;
+}
+.booking-item1 h2{
+	font-size: 40px;
+}
+.booking-item1 p {
+	font-size: 18px;
+}
+                          /*форма*/
+
+
+
+                        /*расположение*/
+.location {
+	display: flex;
+	
+}
+.location-map {
+	padding-top: 120px;
+	padding-left: 103px;
+}
+.location-item {
+	padding-top: 185px;
+	padding-left: 100px;
+	text-align: left;
+	font-size: 18px;
+}
+.adress {
+	margin-top: 45px;
+}
+.tel {
+	margin-top: 33px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
