@@ -229,13 +229,11 @@ header {
 .program-modal{
 	margin-top: 30px;
 }
-.program-modal:hover,{
-	z-index: -1;
+.program-modal:hover .program-item1{
+	display: block;
 } 
-.cart:hover {
-	z-index: -1;
-}
 .program-item1 {
+	display: none;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -248,8 +246,8 @@ header {
 	padding-left: 25px;
 	text-align: left;
 	position: absolute;
+	right: 0;
 	top: 30px;
-	z-index: -1;
 	background-color: #011C40;
 }
 .program-item2 {
@@ -265,6 +263,7 @@ header {
 	padding-left: 25px;
 	text-align: left;
 	position: absolute;
+	right: 0;
 	top: 30px;
 	z-index: 1;
 	background-color: #011C40;
