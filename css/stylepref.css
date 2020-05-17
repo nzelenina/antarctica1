@@ -185,7 +185,16 @@ header {
 .bort {
 	padding-top: 38px;
 }
+   
                          /*ПРОГРАММА КРУИЗОВ*/
+ .cart {                        
+width: 260px;
+height: 386px;
+z-index: 1;
+}
+.cart:hover {
+	z-index: -1;
+}                     
 .cruis {
 	margin-top: 121px;
 	margin-bottom: 18px;
@@ -228,12 +237,13 @@ header {
 }
 .program-modal{
 	margin-top: 30px;
+
 }
-.program-modal:hover .program-item1{
+/*.cart:hover .program-item1{
 	display: block;
-} 
+} */
 .program-item1 {
-	display: none;
+   /* display: none;*/
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
