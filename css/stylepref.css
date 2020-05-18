@@ -187,16 +187,17 @@ header {
 }
    
                          /*ПРОГРАММА КРУИЗОВ*/
-.cart {                        
+.cart {  
+position: relative;                      
 width: 260px;
 height: 386px;
 z-index: 1;
+margin-top: 30px;
 }
 .cart:hover {
-	/*z-index: -1;*/
 	opacity: 0;
 
-}                   
+} 
 .cruis {
 	margin-top: 121px;
 	margin-bottom: 18px;
@@ -233,14 +234,14 @@ z-index: 1;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 150%;
-   bottom: 10px;
+    bottom: 10px;
 	padding-left: 30px;
-	color: #F9FBFD;
+    color: #F9FBFD;	
 }
-.program-modal{
+/*.program-modal{
 	margin-top: 30px;
 
-}
+}*/
 /*.cart:hover .program-item1{
 	display: block;
 } */
