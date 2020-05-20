@@ -245,13 +245,6 @@ margin-top: 30px;
 	padding-left: 30px;
     color: #F9FBFD;	
 }
-/*.program-modal{
-	margin-top: 30px;
-
-}*/
-/*.cart:hover .program-item1{
-	display: block;
-} */
 .program-item1 {
  /* display: none;*/
 	display: -webkit-box;
@@ -268,25 +261,6 @@ margin-top: 30px;
 	position: absolute;
 	right: 0;
 	top: 30px;
-	background-color: #011C40;
-}
-
-.program-item2 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	width: 235px;
-	min-height: 386px;
-	padding-left: 25px;
-	text-align: left;
-	position: absolute;
-	right: 0;
-	top: 30px;
-	z-index: 1;
 	background-color: #011C40;
 }
 
@@ -327,12 +301,17 @@ margin-top: 30px;
 	color: #F9FBFD;
 }
 .program-book {
-	margin-top: 12px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 23px;
+	color: #011C40;
+	background-color: #ffffff;
 	width: 210px;
-	height: 40px;
+	height: 30px;
 	font-size: 14px;
-	padding: 0;
-	border: 0;
+	font-weight: 600;
+	border: 1px solid #000000;
 }
                         /*бронирование*/
 .booking {
@@ -381,7 +360,8 @@ margin-top: 30px;
 	min-height: 170px;
 }
 .date-item1 {
-margin-left: 50px;
+font-family: inherit;
+margin-left: 49px;
 width: 287px;
 height: 43px;
 border: 0;
@@ -403,17 +383,18 @@ line-height: 150%;
 	width: 303px;
 	margin-left: 50px;
 	margin-top: 40px;
-	margin-bottom: 30px;
+	margin-bottom: 31px;
 }
 .date button {
 	width: 303px;
 	height: 43px;
-	margin-left: 50px;
+	margin-left: 49px;
 	margin-top: 5px;
 	border: 0;
-	padding: 0;
+	padding: 0 0px 0 5px;
 	font-size: 14px;
-    font-weight: normal;
+    font-weight: 600;
+    line-height: 150%;
     color:  #011C40;
 }
 .date button:focus{
