@@ -63,7 +63,6 @@ header {
 .menu1 {
 	margin: 42px 73px 5px auto;
 	padding-left: 0;
-	/*width: 1226px;*/
 	list-style: none;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -73,10 +72,9 @@ header {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        /*justify-content: space-between;*/
-
+	/*-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;*/
+	       
 }
 .menu1 li {
 	margin-right: 33px;
@@ -587,13 +585,15 @@ footer {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
+	-/*webkit-box-pack: justify;
+	    -ms-flex-pack: justify;*/
 	        
 }
 .menu2 li {
 	margin-right: 33px;
 }
+
+
 footer a {
 	font-size: 16px;
 	line-height: 20px;
@@ -608,19 +608,27 @@ footer a {
 	-webkit-box-direction: normal;
 	  -ms-flex-direction: row;
 	        flex-direction: row;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        /*justify-content: space-between;*/
+	/*-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;*/
+	    
 	        flex-wrap: wrap;
 	        min-height: 80px;
-	width: 150px;
+	width: 160px;
 	margin: 0 102px 0 auto ;
 	padding-top: 60px;
 	padding-left: 0;
 }
-.net-img {
+.net a{
+	display: inline-block;
+	height: 25px;
+	width: 20px;
 	margin-right: 33px;
+
 }
+
+}
+
+
 
 
 
